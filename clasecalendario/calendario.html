@@ -5,39 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calendario</title>
 </head>
-<body>
+<body> 
 
-<!-- forma rapida -->
- 
-    <!-- <form action="">
-        <label for="hora"></label>
-        <span>hora</span>
-        <input type="time" id="hora" name="hora">
+    <main>
+        <form action="">
+            <label for="nombre"></label>
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" name="nombre" id="nombre" autocomplete="name" required>
 
-        <label for="Dia"></label>
-        <span>dia</span>
-        <input type="date" id="Dia" name="Dia">
+            <label for="correo"></label>
+            <span>¿cual es tu correo</span>
+            <input type="email" name="correo" id="correo" autocomplete="email" required>
+            
+            <label for="pais"></label>
+            <span>¿de que pais eres</span>
+            <input type="text" name="pais" id="pais" autocomplete="country" required>
 
-        <label for="semana"></label>
-        <span>semana</span>
-        <input type="week" id="semana" name="semana">
+            <label for="cp"></label>
+            <span>¿cual es tu codigo postal?</span>
+            <input type="text" name="cp" id="cp" autocomplete="postal-code"required> 
 
-        <label for="mes"></label>
-        <span>mes</span>
-        <input type="month" id="mes" name="mes">
+            <input type="submit">
+        </form>
 
-        <input type="submit">
-    </form> -->
+    </main>
+
     
-<!-- forma corta -->
-
-    <form action="">
-        <label for="calendario"></label>
-        <span>calendario</span>
-        <input type="datetime-local" id="calendario" name="calendario">
-        <input type="submit">
-
-
-    </form>
 </body>
 </html>
